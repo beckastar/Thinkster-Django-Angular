@@ -25,8 +25,6 @@
 
     return Authentication;
 
-<<<<<<< HEAD
-=======
     function register(email, password, username) {
         return $http.post('/api/v1/accounts/', {
           username: username,
@@ -43,7 +41,6 @@
         }
       }
 
->>>>>>> 9984e5de576085e357181c1f3ba0783fa40b1d91
     function login(email, password) {
         return $http.post('/api/v1/auth/login/', {
           email: email, password: password
@@ -95,7 +92,6 @@
       }
     }
 
-<<<<<<< HEAD
     function register(email, password, username) {
         return $http.post('/api/v1/accounts/', {
           username: username,
@@ -111,9 +107,6 @@
           console.error('Epic failure!');
         }
       }
-
-=======
->>>>>>> 9984e5de576085e357181c1f3ba0783fa40b1d91
   }
 
 })();
